@@ -1,0 +1,317 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.2 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+
+/* Header Background Color */
+#mainNav {
+  min-height: 56px;
+  background-color: rgb(0, 0, 0);
+}
+/* menu text minimal size */
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+/* brand text color minimal size */
+#mainNav .navbar-brand {
+  color: #ffffff;
+  font-weight: 700;
+  padding: .9rem 0;
+}
+/* Header Background Text Color scroll down*/
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(rgb(0, 0, 0), 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  /* brand text */
+  #mainNav .navbar-brand {
+    padding: .5rem 0;
+    color: rgb(255, 255, 255);
+  }
+  /* menu text color(Store Contact Login) */
+  #mainNav .nav-link {
+    -webkit-transition: none;
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: rgb(255, 255, 255);
+  }
+  /* menu text color(Store Contact Login) mouse over*/
+  #mainNav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  /* menu text color(Store Contact Login) mouse click*/
+  #mainNav .nav-link:active {
+    color: white;
+  }
+  /* Header background color scroll down */
+  #mainNav.navbar-shrink {
+    background-color: rgb(0, 0, 0);
+  }
+  /* brand text color scroll down */
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #ffffff;
+  }
+  /* menu text color(Store Contact Login) scroll down */
+  #mainNav.navbar-shrink .nav-link {
+    color: #ffffff;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  /* menu text color(Store Contact Login) scroll down mouse over*/
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #9b9b9b;
+  }
+  /* menu text color(Store Contact Login) scroll down mouse click*/
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #9b9b9b;
+  }
+    /* menu text color(Store Contact Login) scroll down mouse clicked*/
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #ff0000;
+    outline: none;
+    border-bottom: 0.25rem solid #ff0000;
+  }
+}
+/* main picture and tone */
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-main.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+/* brand main text color */
+.masthead h1 {
+  font-family: 'Varela Round';
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+/* get start button mod */
+.btn {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #e40000;
+}
+
+.btn-primary:hover {
+  background-color: #ff4242;
+}
+
+.btn-primary:focus {
+  background-color: #e40000;
+  color: rgb(255, 255, 255);
+}
+
+.btn-primary:active {
+  background-color: #e40000 !important;
+}
+
+.about-section {
+  padding-top: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+.projects-section {
+  padding: 10rem 0;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #ff0000;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #ff0000;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+/* subscribe bg color */
+.signup-section {
+  padding: 10rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.signup-section .form-inline input {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.contact-section {
+  padding: 5rem 0 0;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #ff0000;
+}
+
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section .card hr {
+  border-color: #ff0000;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+/* social button footer */
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);  /* social btn bg */
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);  /* social btn logo */
+}
+/* social button footer mouse over*/
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* social button footer mouse click*/
+.contact-section .social a:active {
+  color: #fff;
+}
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+}
+/* email text */
+a {
+  color: #64a16e;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #423c63;
+}
+/* footer bg color */
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-primary {
+  background-color: #7164a1 !important;
+}
+
+.text-primary {
+  color: #64a19d !important;
+}
+
+footer {
+  padding: 5rem 0;
+}
